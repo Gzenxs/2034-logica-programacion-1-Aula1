@@ -1,2 +1,2 @@
-//Declara una variable llamada nombre y asígnale el valor "Lua".
-let nombre = "Lua";
+//Crea una variable llamada edad y asígnale el valor 25.
+let edad = 25;
