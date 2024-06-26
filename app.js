@@ -1,2 +1,2 @@
-//Utiliza un prompt para preguntar el nombre del usuario y almacénalo en la variable nombre.
-let nombre = prompt('Digite su nombre');
+//Pide al usuario que ingrese su edad usando un prompt y almacénala en la variable edad.
+let edad = prompt('Digite su edad');
