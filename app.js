@@ -1,2 +1,2 @@
-//Define una variable numeroDeVentas y asígnale el valor 50.
-let numeroDeVentas = 50;
+//Define una variable saldoDisponible y asígnale el valor 1000.
+let saldoDisponible = 1000;
