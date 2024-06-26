@@ -1,3 +1,2 @@
-//Declara una variable llamada mensajeDeError y asígnale el valor "¡Error! Completa todos los campos." Ahora muestra una alerta con el valor de la variable mensajeDeError.
-let mensajeDeError = '¡Error! Completa todos los campos';
-alert(mensajeDeError);
+//Utiliza un prompt para preguntar el nombre del usuario y almacénalo en la variable nombre.
+let nombre = prompt('Digite su nombre');
