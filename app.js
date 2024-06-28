@@ -1,9 +1,4 @@
-//Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100, muestra "¡Enhorabuena, has ganado!". En caso contrario, muestra "Inténtalo de nuevo para ganar."
+//Crea un mensaje que informe al usuario sobre el saldo de la cuenta, utilizando un template string para incluir el valor del saldo.
 
-let puntuacion = prompt("Ingresa tu puntuacion");
-
-if (puntuacion >= 100) {
-  alert('¡Enhorabuena, has ganado!');
-} else {
-  alert('Inténtalo de nuevo para ganar.');
-}
+let saldoCuenta = 500; // Ejemplo de saldo
+alert(`Tu saldo es de ${saldoCuenta}.`);
