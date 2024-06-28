@@ -1,24 +1,7 @@
-//Variables
-let numeroSecreto = 6;
-let numeroUsuario = 0;
-let intentos = 1;
-let pluralSingular = 'intento'
-while (numeroUsuario != numeroSecreto) {
+//Crea un contador que comience en 1 y vaya hasta 10 usando un bucle 'while'. Muestra cada número.
 
-    numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor: ");
-    /*
-    Este codigo realiza la comparacion.
-    */
-    if (numeroUsuario == numeroSecreto) {
-        //Acertamos, fue verdadera la condición
-        alert(`Acertaste el número secreto es ${numeroSecreto}. Lo hiciste en ${intentos} ${pluralSingular}`);
-    } else {
-        if (numeroUsuario > numeroSecreto) {
-            alert("El numero Secreto es Menor");
-        } else {
-            alert("El numero Secreto es Mayor");
-        }
-        intentos = intentos + 1;
-        pluralSingular ='intentos';
-    }    
+let contador = 1;
+while (contador <= 10) {
+alert(contador);
+contador++;
 }
