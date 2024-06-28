@@ -1,15 +1,11 @@
-//Variables
-let numeroSecreto = 6;
-let numeroUsuario = prompt("Me indicas un número entre 1 y 10 por favor: ");
+//Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo", muestra "¡Buen fin de semana!". En caso contrario, muestra "¡Buena semana!".
 
-console.log(numeroUsuario);
-/*
-Este codigo realiza la comparacion.
-*/
-if (numeroUsuario == numeroSecreto) {
-    //Acertamos, fue verdadera la condición
-    alert(`Acertaste el número secreto es ${numeroSecreto}`);
+let diaSemana = prompt('¿Qué día de la semana es?');
+// Convierte a minúsculas y quita acentos
+diaSemana = diaSemana.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+if (diaSemana === 'sabado' || diaSemana === 'domingo') {
+    alert('¡Buen fin de semana!');
 } else {
-    //Lacondicion no se cumplió
-    alert("Lo siento, no acertaste el número");
+    alert('¡Buena semana!');
 }
