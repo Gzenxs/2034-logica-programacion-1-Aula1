@@ -1,4 +1,4 @@
-//Crea un mensaje que informe al usuario sobre el saldo de la cuenta, utilizando un template string para incluir el valor del saldo.
+//Pide al usuario que ingrese su nombre usando prompt. Luego, muestra una alerta de bienvenida utilizando ese nombre.
 
-let saldoCuenta = 500; // Ejemplo de saldo
-alert(`Tu saldo es de ${saldoCuenta}.`);
+let nombre = prompt('Por favor, ingresa tu nombre');
+alert(`¡Bienvenido, ${nombre}!`);
