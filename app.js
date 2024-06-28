@@ -1,7 +1,8 @@
-//Crea un contador que comience en 10 y vaya hasta 0 usando un bucle 'while'. Muestra cada número.
+//Crea un programa de cuenta progresiva. Pide un número y cuenta desde 0 hasta ese número utilizando un bucle 'while' en la consola del navegador.
 
-let contador = 10;
-while (contador >= 0) {
-alert(contador);
-contador--;
+let numeroMaximo = prompt("Ingresa un número para la cuenta regresiva:");
+
+while (numeroMaximo >= 0) {
+alert(numeroMaximo);
+numeroMaximo--;
 }
