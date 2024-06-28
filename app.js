@@ -1,11 +1,10 @@
-//Pregunta al usuario qué día de la semana es. Si la respuesta es "Sábado" o "Domingo", muestra "¡Buen fin de semana!". En caso contrario, muestra "¡Buena semana!".
+//Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.
 
-let diaSemana = prompt('¿Qué día de la semana es?');
-// Convierte a minúsculas y quita acentos
-diaSemana = diaSemana.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-
-if (diaSemana === 'sabado' || diaSemana === 'domingo') {
-    alert('¡Buen fin de semana!');
+let numero = prompt('Escribe un número positivo o negativo');
+if (numero > 0) {
+    alert('Número positivo');
+} else if (numero < 0) {
+    alert('Número negativo');
 } else {
-    alert('¡Buena semana!');
+    alert('El número es cero');
 }
