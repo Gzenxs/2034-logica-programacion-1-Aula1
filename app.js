@@ -1,10 +1,9 @@
-//Verifica si un número ingresado por el usuario es positivo o negativo. Muestra una alerta informativa.
+//Crea un sistema de puntuación para un juego. Si la puntuación es mayor o igual a 100, muestra "¡Enhorabuena, has ganado!". En caso contrario, muestra "Inténtalo de nuevo para ganar."
 
-let numero = prompt('Escribe un número positivo o negativo');
-if (numero > 0) {
-    alert('Número positivo');
-} else if (numero < 0) {
-    alert('Número negativo');
+let puntuacion = prompt("Ingresa tu puntuacion");
+
+if (puntuacion >= 100) {
+  alert('¡Enhorabuena, has ganado!');
 } else {
-    alert('El número es cero');
+  alert('Inténtalo de nuevo para ganar.');
 }
