@@ -20,5 +20,9 @@ while (numeroUsuario != numeroSecreto) {
         }
         intentos = intentos + 1;
         pluralSingular ='intentos';
+        if (intentos > 3) {
+            alert('Numero maximo de intentos');
+            break;
+        }
     }    
 }
