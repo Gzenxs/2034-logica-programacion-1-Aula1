@@ -1,8 +1,10 @@
-//Pide al usuario que ingrese su edad con prompt. Con base en la edad ingresada, utiliza un if para verificar si la persona es mayor o menor de edad y muestra un mensaje apropiado en la consola.
+//Crea una variable "numero" y solicita un valor con prompt. Luego, verifica si es positivo, negativo o cero utilizando un if-else y muestra el mensaje correspondiente.
 
-edad = prompt('Ingresa tu edad:');
-   if (edad > 17) {
-       console.log('Eres mayor de edad.');
+numero = parseFloat(prompt("Ingresa un número:"));
+   if (numero > 0) {
+       console.log("El número es positivo.");
+   } else if (numero < 0) {
+       console.log("El número es negativo.");
    } else {
-       console.log('Eres menor de edad.');
+       console.log("El número es cero.");
    }
