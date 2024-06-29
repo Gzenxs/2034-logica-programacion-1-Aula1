@@ -1,9 +1,4 @@
-//Crea una variable "nota" y asígnale un valor numérico. Utiliza un if-else para determinar si la nota es mayor o igual a 7 y muestra "Aprobado" o "Reprobado" en la consola.
+//Utiliza Math.random para generar cualquier número aleatorio y muestra ese número en la consola.
 
-nota = Math.floor(Math.random()*11);
-console.log(nota); 
-if (nota >= 7) {
-    console.log("Aprobado");
-} else {
-    console.log("Reprobado");
-}
+numeroAleatorio = Math.random();
+console.log(numeroAleatorio);
